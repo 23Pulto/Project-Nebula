@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Nebula</title>
+    <meta name="description" content="Project Nebula brings back the classic OG Fortnite experience.">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        const CONFIG = {
+            DOWNLOAD_LINK: "https://example.com/download-nebula"
+        };
+    </script>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="assets/logo.png" alt="Project Nebula Logo" class="logo-img">
+                <span class="logo-text">Nebula</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#tos">Terms of Service</a></li>
+                <li><a href="#" id="nav-download-btn" class="nav-btn">Download</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-bg">
+            <img src="assets/FortniteSeason8.jpg" alt="Background" class="bg-img">
+            <div class="bg-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Return to the <span class="highlight-text">Classic Era</span></h1>
+            <p class="hero-subtitle">Project Nebula is the ultimate authentic experience. Relive Season 8 with classic weapons, the old map, and pure nostalgia.</p>
+            <div class="hero-actions">
+                <a href="#" id="main-download-btn" class="btn btn-primary pulse-anim">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 16L7 11L8.4 9.55L11 12.15V4H13V12.15L15.6 9.55L17 11L12 16ZM4 20V15H6V18H18V15H20V20H4Z" fill="currentColor"/>
+                    </svg>
+                    Download Now
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Why Project Nebula?</h2>
+            <div class="feature-grid">
+                <div class="feature-card glass">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"></polygon><line x1="9" y1="3" x2="9" y2="18"></line><line x1="15" y1="6" x2="15" y2="21"></line></svg>
+                    </div>
+                    <h3>Classic Map</h3>
+                    <p>Drop back into the iconic Season 8 map. Revisit Lazy Lagoon, Sunny Steps, and the Volcano.</p>
+                </div>
+                <div class="feature-card glass">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="22" y1="12" x2="18" y2="12"></line><line x1="6" y1="12" x2="2" y2="12"></line><line x1="12" y1="6" x2="12" y2="2"></line><line x1="12" y1="22" x2="12" y2="18"></line></svg>
+                    </div>
+                    <h3>OG Loot Pool</h3>
+                    <p>Pump Shotguns, Tactical SMGs, and classic Assault Rifles are back and balanced perfectly.</p>
+                </div>
+                <div class="feature-card glass">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                    </div>
+                    <h3>Smooth Performance</h3>
+                    <p>Optimized for modern hardware while keeping the authentic classic graphical style intact.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tos" class="tos-section">
+        <div class="container">
+            <div class="glass tos-content">
+                <h2>Terms of Service</h2>
+                <p>Welcome to Project Nebula. By downloading and playing, you agree to our terms.</p>
+                <div class="tos-text">
+                    <h3>1. Acceptance of Terms</h3>
+                    <p>By accessing Project Nebula, you confirm that you have read, understood, and agree to be bound by these terms. If you do not agree, you must not use the service.</p>
+                    
+                    <h3>2. Fair Play</h3>
+                    <p>We maintain a strict zero-tolerance policy against cheating, exploiting, or any form of unfair advantage. Violations will result in a permanent ban from our servers.</p>
+                    
+                    <h3>3. Disclaimer</h3>
+                    <p>Project Nebula is a fan-made project and is not affiliated with, endorsed by, or connected to Epic Games in any way. All original assets belong to their respective owners.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Project Nebula. Not affiliated with Epic Games.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
